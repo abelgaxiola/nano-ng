@@ -27,7 +27,7 @@ Docker commands used:
 	docker run -d --name south-to-north -p 80:80 south-to-north
 	docker inspect --format '{{ .NetworkSettings.Networks.nat.IPAddress }}' south-to-north
 
-The last command return the IP Address of the running image.
+The last command returns the IP Address of the running image.
 
 The website can now be viewed and interacted with by copying the IP Address into a web browser's address bar
 
