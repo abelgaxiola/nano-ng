@@ -1,7 +1,7 @@
 Docker Image with an Angular app on Microsoft's NanoServer with IIS
 ---
 # Created using microsoft/iis:nanoserver
-
+### Image size 1.15 GB
 The Angular source code is inside a folder named websrc. The websrc folder is inside the same folder where the Dockerfile resides.
 
 Contents of the Dockerfile used:
@@ -30,3 +30,5 @@ Docker commands used:
 The last command return the IP Address of the running image.
 
 The website can now be viewed and interacted with by copying the IP Address into a web browser's address bar
+
+On Docker Hub: [Nano-Ng](https://hub.docker.com/r/abelgaxiola/nano-ng/)
