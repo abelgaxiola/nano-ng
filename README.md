@@ -1,5 +1,4 @@
-# nano-ng
-Creating a Docker Image with an Angular app on Microsoft's NanoServer with IIS
+Docker Image with an Angular app on Microsoft's NanoServer with IIS
 ---
 # Created using microsoft/iis:nanoserver
 
